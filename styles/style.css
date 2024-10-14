@@ -68,10 +68,10 @@ main{
     padding: 80px 160px;
 }
 
-.why-web-dev-intro{
+.why-web-dev-intro , .my-inspiration-intro{
         text-align: center;
 }
-.why-web-dev-intro>p{
+.why-web-dev-intro>p , .my-inspiration-intro>p{
     padding:20px;
 }
 
@@ -116,4 +116,16 @@ main{
 
 .web-system{
     flex-direction: row-reverse;
+}
+
+/* My Inspiration style */
+
+.my-inspiration{
+    padding: 80px 160px;
+}
+
+.my-inspiration>iframe{
+    border:1px solid rgb(197, 197, 197);
+    padding: 28px;
+    border-radius: 20px;
 }
