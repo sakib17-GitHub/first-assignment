@@ -68,10 +68,10 @@ main{
     padding: 80px 160px;
 }
 
-.why-web-dev-intro , .my-inspiration-intro{
+.why-web-dev-intro , .my-inspiration-intro , .my-current-target-intro{
         text-align: center;
 }
-.why-web-dev-intro>p , .my-inspiration-intro>p{
+.why-web-dev-intro>p , .my-inspiration-intro>p , .my-current-target-intro>p{
     padding:20px;
 }
 
@@ -120,7 +120,7 @@ main{
 
 /* My Inspiration style */
 
-.my-inspiration{
+.my-inspiration , .my-current-target{
     padding: 80px 160px;
 }
 
@@ -128,4 +128,50 @@ main{
     border:1px solid rgb(197, 197, 197);
     padding: 28px;
     border-radius: 20px;
+}
+
+
+/* My Current Target style */
+.html , .css , .js{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width:400px;
+        padding: 16px 26px 21px 16px;
+        border-radius: 20px;
+}
+
+.html >img , .css>img , .js>img{
+    width:10%;
+    padding-bottom: 20px;
+}
+
+.html > p , .css>p , .js>p{
+    font-size: 12px;
+    padding:10px 0px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: justify;
+}
+
+.html>a , .css>a , .js>a{
+    color:rgb(27, 27, 27);
+    font-size: 14px;
+    font-weight: 600;   
+}
+
+.my-current-target-cards{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
 }
