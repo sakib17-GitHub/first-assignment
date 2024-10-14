@@ -6,6 +6,8 @@
         font-family: "Azeret Mono", monospace;
 }
 
+/* Banner style */
+
 .banner{
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
@@ -24,17 +26,6 @@
     width: 20%
 }
 
-.banner-title{
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.banner-description{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 28px;
-}
-
 .banner-btn>a{
     text-decoration: none;
     font-size: 14px;
@@ -47,4 +38,82 @@
     border-radius: 10px;
     border:none;
     padding: 14px 22px;
+}
+
+
+/* Shared style */
+
+.title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* main */
+main{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+/* Why Web Development style */
+
+.why-web-development{
+    background-color: #FAFAFB;
+    padding: 80px 160px;
+}
+
+.why-web-dev-intro{
+        text-align: center;
+}
+.why-web-dev-intro>p{
+    padding:20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+    padding:40px;
+    background-color:#ffffffb7;
+    border-radius: 20px;
+    margin: 60px auto;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+    color:gba(13, 19, 33, 0.7);
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.card-description{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(13, 19, 33);
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.card-btn{
+    border:1px solid rgb(141, 141, 140);
+    border-radius: 10px;
+    padding: 14px 22px;
+    background-color: white;
+}
+
+.card-btn>a{
+    text-decoration: none;
+    color: rgb(141, 141, 140);
+}
+
+.web-system{
+    flex-direction: row-reverse;
 }
