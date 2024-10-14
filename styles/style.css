@@ -56,7 +56,7 @@
 
 
 /* main */
-main{
+main , .footer{
     max-width: 1180px;
     margin: 0px auto;
 }
@@ -120,7 +120,7 @@ main{
 
 /* My Inspiration style */
 
-.my-inspiration , .my-current-target{
+.my-inspiration , .my-current-target , .i-need-support{
     padding: 80px 160px;
 }
 
@@ -174,4 +174,79 @@ main{
 }
 .js{
     background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+/* I Need Support style*/
+
+.i-need-support{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("/assets/handshake.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.support-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    color: #FAFAFB;
+}
+
+.support-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(211, 212, 212);
+    margin-top: 20px;
+}
+
+.support-input{
+    text-align: center;
+    padding:30px 180px;
+}
+
+.support-message{
+    width:300px;
+    height:36px;
+    border-radius: 8px;
+    border:none;
+    padding:10px 20px;  
+}
+
+.support-message-submit{
+    height:56px;
+    border-radius: 8px;
+    border:none;
+    padding: 20px 20px;
+    margin-left:20px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    background-color: #FFFFFF;
+     
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer-icon{
+    padding:40px 20px ;
+}
+
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer>p{
+    font-size: 16px;
+    font-weight: 700;
 }
